@@ -404,10 +404,6 @@ padding-left: 200px;
 
 
 
-.hide{
-    display: none;
-}
-
 
 
 
@@ -434,16 +430,8 @@ padding-left: 200px;
      
 
      /* online game section start here  */
-   .online-img-container > div img{
-    width: 200px;
-    height: 50%;
-   }
-   
-     .online-img-container {
-        grid-template-columns: repeat(1, 4fr);
-            grid-template-rows: 0px;
-            height: max-content;
-
+     .online-game-section{
+        display: none;
      }
      /* online game section end here  */
      .instantly-section{
@@ -470,6 +458,9 @@ padding-left: 200px;
      .gaming-contact img{
         height: 50px;
         width: 50px;
+     }
+     .gaming {
+        height: 500px;
      }
 
 
@@ -512,4 +503,10 @@ padding-left: 200px;
         left: 0;
         bottom: 0;
     }
+    .online-game-section{
+        display: none;
+     }
+     .gaming-contact {
+        font-size: 18px;
+     }
 }
