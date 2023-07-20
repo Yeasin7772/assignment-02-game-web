@@ -14,6 +14,13 @@ font-family: 'Work Sans', sans-serif;
 
 /* header section style start */
 /* navbar style start */
+.nav-container > div img{
+    width: 60px;
+    height: 32px;
+    margin-top: 19px;
+ 
+
+}
 .nav-container{
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
@@ -26,7 +33,7 @@ font-family: 'Work Sans', sans-serif;
 .nav-title{
     margin: 10px;
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 700;
 }
 .nav-title-g{
@@ -413,7 +420,7 @@ padding-left: 200px;
 
 /* responsive of mobile phone */
 @media screen and ( max-width: 576px) {
-    .nav-container, nav > ul, nav div {
+    .nav-container, nav > ul {
         flex-direction: column;
     }
     /* banner media query start */
@@ -440,24 +447,36 @@ padding-left: 200px;
      }
      .instantly-title{
         padding: 0;
+        margin-bottom: 100px;
      }
      .instantly-img img{
         width: 350px;
      }
    
      .ground-img img{
-        display: none;
+        /* display: none; */
+        left: 0;
+        width: 200px;
+     height: 200px;
      }
      .instantly-description{
         padding: 0;
      }
      /* Gaming section start here  */
      .container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
      }
      .gaming-contact img{
-        height: 50px;
-        width: 50px;
+        height: 20px;
+        width: 20px;
+     }
+     .gaming-contact {
+        font-size: 10px;
+     }
+     .Rectangle-13 img{
+        height: 20px;
+        width: 20px;
+
      }
      .gaming {
         height: 500px;
@@ -469,10 +488,10 @@ padding-left: 200px;
 
      /* footer media query start */
     .footer{
-        height: 100vh;
+        height: 700px;
     }
     .footer-title{
-        flex-direction: column;
+       
     }
     .footer-icon-item{
         grid-template-columns: repeat(3, 1fr);
@@ -480,9 +499,11 @@ padding-left: 200px;
    
     .policy-item{
         grid-template-columns: repeat(2, 1fr);
+        font-size: 10px;
     }
     .footer-text-item{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        font-size: 10px;
     }
      /* footer media query end */
    
@@ -508,5 +529,11 @@ padding-left: 200px;
      }
      .gaming-contact {
         font-size: 18px;
+     }
+     .footer-text-item{
+        font-size: 10px;
+     }
+     .policy-item{
+        font-size: 10px;
      }
 }
